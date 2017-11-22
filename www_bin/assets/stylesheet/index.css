@@ -1,0 +1,462 @@
+@font-face {
+  font-family: NoodleFont;
+  src: url(fonts/NoodleFont.ttf);
+}
+
+html, body {
+  border: none;
+  outline: none;
+  background-color: silver;
+  color: #000;
+  margin: 0 0 0 0;
+}
+
+html #TitleContainer, body #TitleContainer {
+  border: none;
+  outline: none;
+  z-index: 1000;
+  position: absolute;
+  background-color: #222;
+  color: #FFF;
+  margin: 0 0 0 0;
+  float: left;
+  width: 800px;
+  min-width: 800px;
+  max-width: 800px;
+  height: 30px;
+  min-height: 30px;
+  max-height: 30px;
+}
+
+html #TitleContainer #ControlInput1, body #TitleContainer #ControlInput1 {
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: #1E90FF;
+  color: #FFF;
+  margin: 5px 0 0 5px;
+  float: left;
+  width: 20px;
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  min-height: 20px;
+  max-height: 20px;
+}
+
+html #TitleContainer #ControlInput1:hover, body #TitleContainer #ControlInput1:hover {
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: #FF3030;
+  color: #FFF;
+  margin: 5px 0 0 5px;
+  float: left;
+  width: 20px;
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  min-height: 20px;
+  max-height: 20px;
+}
+
+html #TitleContainer #ControlInput2, body #TitleContainer #ControlInput2 {
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: #1E90FF;
+  color: #FFF;
+  margin: 5px 0 0 5px;
+  float: left;
+  width: 20px;
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  min-height: 20px;
+  max-height: 20px;
+}
+
+html #TitleContainer #ControlInput2:hover, body #TitleContainer #ControlInput2:hover {
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: #FFAA00;
+  color: #FFF;
+  margin: 5px 0 0 5px;
+  float: left;
+  width: 20px;
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  min-height: 20px;
+  max-height: 20px;
+}
+
+html #TitleContainer #ControlInput3, body #TitleContainer #ControlInput3 {
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: #1E90FF;
+  color: #FFF;
+  margin: 5px 0 0 5px;
+  float: left;
+  width: 20px;
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  min-height: 20px;
+  max-height: 20px;
+}
+
+html #TitleContainer #ControlInput3:hover, body #TitleContainer #ControlInput3:hover {
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: #0AC92B;
+  color: #FFF;
+  margin: 5px 0 0 5px;
+  float: left;
+  width: 20px;
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  min-height: 20px;
+  max-height: 20px;
+}
+
+html #TitleContainer #TitleInput, body #TitleContainer #TitleInput {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: light;
+  text-transform: uppercase;
+  font-family: NoodleFont;
+  background-color: #222;
+  color: #1E90FF;
+  margin: 0 0 0 0;
+  float: left;
+  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
+  height: 30px;
+  min-height: 30px;
+  max-height: 30px;
+}
+
+html #SystemContainer, body #SystemContainer {
+  z-index: 900;
+  border: none;
+  outline: none;
+  position: absolute;
+  background-color: #222;
+  color: #FFF;
+  margin: 30px 0 0 0;
+  float: left;
+  width: 800px;
+  min-width: 800px;
+  max-width: 800px;
+  height: 15px;
+  min-height: 15px;
+  max-height: 15px;
+}
+
+html #SystemContainer #SystemInput1, html #SystemContainer #SystemInput2, html #SystemContainer #SystemInput3, html #SystemContainer #SystemInput4, body #SystemContainer #SystemInput1, body #SystemContainer #SystemInput2, body #SystemContainer #SystemInput3, body #SystemContainer #SystemInput4 {
+  border: none;
+  outline: none;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 1px;
+  font-family: NoodleFont;
+  background-color: #222;
+  color: #FFF;
+  margin: 0 0 0 0;
+  float: left;
+  width: 35px;
+  min-width: 35px;
+  max-width: 35px;
+  height: 15px;
+  min-height: 15px;
+  max-height: 15px;
+}
+
+html #SystemContainer #SystemInput1:hover, html #SystemContainer #SystemInput2:hover, html #SystemContainer #SystemInput3:hover, html #SystemContainer #SystemInput4:hover, body #SystemContainer #SystemInput1:hover, body #SystemContainer #SystemInput2:hover, body #SystemContainer #SystemInput3:hover, body #SystemContainer #SystemInput4:hover {
+  border: none;
+  outline: none;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 1px;
+  font-family: NoodleFont;
+  background-color: #222;
+  color: #1E90FF;
+  margin: 0 0 0 0;
+  float: left;
+  width: 35px;
+  min-width: 35px;
+  max-width: 35px;
+  height: 15px;
+  min-height: 15px;
+  max-height: 15px;
+}
+
+html #MenuContainer, body #MenuContainer {
+  z-index: 800;
+  border: none;
+  outline: none;
+  display: none;
+  position: absolute;
+  background-color: #333;
+  color: #FFF;
+  margin: 45px 0 0 0;
+  float: left;
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  height: 455px;
+  min-height: 455px;
+  max-height: 455px;
+}
+
+html #MenuContainer #CloseMenu, body #MenuContainer #CloseMenu {
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: #FFF;
+  margin: 0 0 0 0;
+  float: left;
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  height: 30px;
+  min-height: 30px;
+  max-height: 30px;
+}
+
+html #MenuContainer #CloseMenu:hover, body #MenuContainer #CloseMenu:hover {
+  border: none;
+  outline: none;
+  background-color: #444;
+  color: #1E90FF;
+  margin: 0 0 0 0;
+  float: left;
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  height: 30px;
+  min-height: 30px;
+  max-height: 30px;
+}
+
+html #MenuContainer #CloseMenuIcon, body #MenuContainer #CloseMenuIcon {
+  margin: 8px 0 0 6px;
+  float: left;
+}
+
+html #MenuContainer #CloseInput, body #MenuContainer #CloseInput {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  text-align: right;
+  font-family: NoodleFont;
+  background-color: transparent;
+  color: #FFF;
+  margin: 0 0 0 0;
+  float: right;
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  height: 30px;
+  min-height: 30px;
+  max-height: 30px;
+}
+
+html #MenuContainer #ExpandWrapper, body #MenuContainer #ExpandWrapper {
+  border: none;
+  outline: none;
+  position: absolute;
+  background-color: #666;
+  color: #FFF;
+  margin: 0 0 0 0;
+  float: left;
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  height: 120px;
+  min-height: 120px;
+  max-height: 120px;
+  bottom: 0;
+}
+
+html #MenuContainer #ExpandWrapper #ExpandItem1, html #MenuContainer #ExpandWrapper #ExpandItem2, html #MenuContainer #ExpandWrapper #ExpandItem3, html #MenuContainer #ExpandWrapper #ExpandItem4, body #MenuContainer #ExpandWrapper #ExpandItem1, body #MenuContainer #ExpandWrapper #ExpandItem2, body #MenuContainer #ExpandWrapper #ExpandItem3, body #MenuContainer #ExpandWrapper #ExpandItem4 {
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: #FFF;
+  margin: 0 0 0 0;
+  float: left;
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  height: 30px;
+  min-height: 30px;
+  max-height: 30px;
+}
+
+html #MenuContainer #ExpandWrapper #ExpandItem1:hover, html #MenuContainer #ExpandWrapper #ExpandItem2:hover, html #MenuContainer #ExpandWrapper #ExpandItem3:hover, html #MenuContainer #ExpandWrapper #ExpandItem4:hover, body #MenuContainer #ExpandWrapper #ExpandItem1:hover, body #MenuContainer #ExpandWrapper #ExpandItem2:hover, body #MenuContainer #ExpandWrapper #ExpandItem3:hover, body #MenuContainer #ExpandWrapper #ExpandItem4:hover {
+  border: none;
+  outline: none;
+  background-color: #444;
+  color: #1E90FF;
+  margin: 0 0 0 0;
+  float: left;
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  height: 30px;
+  min-height: 30px;
+  max-height: 30px;
+}
+
+html #MenuContainer #ExpandWrapper #ExpandIcon1, html #MenuContainer #ExpandWrapper #ExpandIcon2, html #MenuContainer #ExpandWrapper #ExpandIcon3, html #MenuContainer #ExpandWrapper #ExpandIcon4, body #MenuContainer #ExpandWrapper #ExpandIcon1, body #MenuContainer #ExpandWrapper #ExpandIcon2, body #MenuContainer #ExpandWrapper #ExpandIcon3, body #MenuContainer #ExpandWrapper #ExpandIcon4 {
+  margin: 8px 0 0 5px;
+  float: left;
+}
+
+html #MenuContainer #ExpandWrapper #ExpandInput1, html #MenuContainer #ExpandWrapper #ExpandInput2, html #MenuContainer #ExpandWrapper #ExpandInput3, html #MenuContainer #ExpandWrapper #ExpandInput4, body #MenuContainer #ExpandWrapper #ExpandInput1, body #MenuContainer #ExpandWrapper #ExpandInput2, body #MenuContainer #ExpandWrapper #ExpandInput3, body #MenuContainer #ExpandWrapper #ExpandInput4 {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  text-align: right;
+  font-family: NoodleFont;
+  background-color: transparent;
+  color: #FFF;
+  margin: 0 0 0 0;
+  float: right;
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  height: 30px;
+  min-height: 30px;
+  max-height: 30px;
+}
+
+html #MainContainer, body #MainContainer {
+  z-index: 700;
+  border: none;
+  outline: none;
+  position: absolute;
+  background-color: silver;
+  color: #FFF;
+  margin: 45px 0 0 0;
+  float: left;
+  width: 800px;
+  min-width: 800px;
+  max-width: 800px;
+  height: 455px;
+  min-height: 455px;
+  max-height: 455px;
+}
+
+html #MainContainer #MiniNavigation, body #MainContainer #MiniNavigation {
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: #FFF;
+  margin: 0 0 0 0;
+  float: left;
+  width: 30px;
+  min-width: 30px;
+  max-width: 30px;
+  height: 455px;
+  min-height: 455px;
+  max-height: 455px;
+}
+
+html #MainContainer #MiniNavigation #MiniWrapper, body #MainContainer #MiniNavigation #MiniWrapper {
+  border: none;
+  outline: none;
+  position: absolute;
+  background-color: #222;
+  color: #FFF;
+  margin: 0 0 0 0;
+  float: left;
+  width: 30px;
+  min-width: 30px;
+  max-width: 30px;
+  height: 120px;
+  min-height: 120px;
+  max-height: 120px;
+  bottom: 0;
+}
+
+html #MainContainer #MiniNavigation #OpenMenu, body #MainContainer #MiniNavigation #OpenMenu {
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: #FFF;
+  margin: 0 0 0 0;
+  float: left;
+  width: 30px;
+  min-width: 30px;
+  max-width: 30px;
+  height: 30px;
+  min-height: 30px;
+  max-height: 30px;
+}
+
+html #MainContainer #MiniNavigation #OpenMenu:hover, body #MainContainer #MiniNavigation #OpenMenu:hover {
+  border: none;
+  outline: none;
+  background-color: #444;
+  color: #1E90FF;
+  margin: 0 0 0 0;
+  float: left;
+  width: 30px;
+  min-width: 30px;
+  max-width: 30px;
+  height: 30px;
+  min-height: 30px;
+  max-height: 30px;
+}
+
+html #MainContainer #MiniNavigation #OpenMenuIcon, body #MainContainer #MiniNavigation #OpenMenuIcon {
+  margin: 8px 0 0 6px;
+  float: left;
+}
+
+html #MainContainer #MiniNavigation #MiniItem1, html #MainContainer #MiniNavigation #MiniItem2, html #MainContainer #MiniNavigation #MiniItem3, html #MainContainer #MiniNavigation #MiniItem4, body #MainContainer #MiniNavigation #MiniItem1, body #MainContainer #MiniNavigation #MiniItem2, body #MainContainer #MiniNavigation #MiniItem3, body #MainContainer #MiniNavigation #MiniItem4 {
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: #FFF;
+  margin: 0 0 0 0;
+  float: left;
+  width: 30px;
+  min-width: 30px;
+  max-width: 30px;
+  height: 30px;
+  min-height: 30px;
+  max-height: 30px;
+}
+
+html #MainContainer #MiniNavigation #MiniItem1:hover, html #MainContainer #MiniNavigation #MiniItem2:hover, html #MainContainer #MiniNavigation #MiniItem3:hover, html #MainContainer #MiniNavigation #MiniItem4:hover, body #MainContainer #MiniNavigation #MiniItem1:hover, body #MainContainer #MiniNavigation #MiniItem2:hover, body #MainContainer #MiniNavigation #MiniItem3:hover, body #MainContainer #MiniNavigation #MiniItem4:hover {
+  border: none;
+  outline: none;
+  background-color: #444;
+  color: #1E90FF;
+  margin: 0 0 0 0;
+  float: left;
+  width: 30px;
+  min-width: 30px;
+  max-width: 30px;
+  height: 30px;
+  min-height: 30px;
+  max-height: 30px;
+}
+
+html #MainContainer #MiniNavigation #MiniIcon1, html #MainContainer #MiniNavigation #MiniIcon2, html #MainContainer #MiniNavigation #MiniIcon3, html #MainContainer #MiniNavigation #MiniIcon4, body #MainContainer #MiniNavigation #MiniIcon1, body #MainContainer #MiniNavigation #MiniIcon2, body #MainContainer #MiniNavigation #MiniIcon3, body #MainContainer #MiniNavigation #MiniIcon4 {
+  margin: 8px 0 0 5px;
+  float: left;
+}
+ 
+
+ /*# sourceMappingURL= index.css.map */

@@ -1,0 +1,429 @@
+// index.sass >> index.css
+
+@font-face
+    font-family: NoodleFont
+    src: url(fonts/NoodleFont.ttf)
+
+html, body
+    border: none
+    outline: none
+    background-color: silver
+    color: #000
+    margin: 0 0 0 0
+
+    #TitleContainer
+        border: none
+        outline: none
+        z-index: 1000
+        position: absolute
+        background-color: #222
+        color: #FFF 
+        margin: 0 0 0 0
+        float: left
+        width: 800px
+        min-width: 800px
+        max-width: 800px
+        height: 30px
+        min-height: 30px
+        max-height: 30px
+
+        #ControlInput1
+            border: none
+            outline: none
+            border-radius: 50%
+            background-color: #1E90FF
+            color: #FFF 
+            margin: 5px 0 0 5px
+            float: left
+            width: 20px
+            min-width: 20px
+            max-width: 20px
+            height: 20px
+            min-height: 20px
+            max-height: 20px
+
+        #ControlInput1:hover
+            border: none
+            outline: none
+            border-radius: 50%
+            background-color: #FF3030
+            color: #FFF 
+            margin: 5px 0 0 5px
+            float: left
+            width: 20px
+            min-width: 20px
+            max-width: 20px
+            height: 20px
+            min-height: 20px
+            max-height: 20px
+
+        #ControlInput2
+            border: none
+            outline: none
+            border-radius: 50%
+            background-color: #1E90FF
+            color: #FFF 
+            margin: 5px 0 0 5px
+            float: left
+            width: 20px
+            min-width: 20px
+            max-width: 20px
+            height: 20px
+            min-height: 20px
+            max-height: 20px
+
+        #ControlInput2:hover
+            border: none
+            outline: none
+            border-radius: 50%
+            background-color: #FFAA00
+            color: #FFF 
+            margin: 5px 0 0 5px
+            float: left
+            width: 20px
+            min-width: 20px
+            max-width: 20px
+            height: 20px
+            min-height: 20px
+            max-height: 20px
+
+        #ControlInput3
+            border: none
+            outline: none
+            border-radius: 50%
+            background-color: #1E90FF
+            color: #FFF 
+            margin: 5px 0 0 5px
+            float: left
+            width: 20px
+            min-width: 20px
+            max-width: 20px
+            height: 20px
+            min-height: 20px
+            max-height: 20px
+
+        #ControlInput3:hover
+            border: none
+            outline: none
+            border-radius: 50%
+            background-color: #0AC92B
+            color: #FFF 
+            margin: 5px 0 0 5px
+            float: left
+            width: 20px
+            min-width: 20px
+            max-width: 20px
+            height: 20px
+            min-height: 20px
+            max-height: 20px
+
+        #TitleInput
+            border: none
+            outline: none
+            font-size: 20px
+            font-weight: light
+            text-transform: uppercase
+            font-family: NoodleFont
+            background-color: #222
+            color: #1E90FF
+            margin: 0 0 0 0
+            float: left
+            width: 150px
+            min-width: 150px
+            max-width: 150px
+            height: 30px
+            min-height: 30px
+            max-height: 30px
+
+    #SystemContainer 
+        z-index: 900
+        border: none
+        outline: none
+        position: absolute
+        background-color: #222 
+        color: #FFF 
+        margin: 30px 0 0 0
+        float: left
+        width: 800px
+        min-width: 800px
+        max-width: 800px
+        height: 15px
+        min-height: 15px
+        max-height: 15px
+
+        #SystemInput1, #SystemInput2, #SystemInput3, #SystemInput4
+            border: none
+            outline: none
+            font-size: 12px
+            text-align: left
+            letter-spacing: 1px
+            font-family: NoodleFont
+            background-color: #222 
+            color: #FFF 
+            margin: 0 0 0 0
+            float: left
+            width: 35px
+            min-width: 35px
+            max-width: 35px
+            height: 15px
+            min-height: 15px
+            max-height: 15px
+
+        #SystemInput1:hover, #SystemInput2:hover, #SystemInput3:hover, #SystemInput4:hover
+            border: none
+            outline: none
+            font-size: 12px
+            text-align: left
+            letter-spacing: 1px
+            font-family: NoodleFont
+            background-color: #222 
+            color: #1E90FF 
+            margin: 0 0 0 0
+            float: left
+            width: 35px
+            min-width: 35px
+            max-width: 35px
+            height: 15px
+            min-height: 15px
+            max-height: 15px
+
+    #MenuContainer 
+        z-index: 800
+        border: none
+        outline: none
+        display: none
+        position: absolute
+        background-color: #333
+        color: #FFF 
+        margin: 45px 0 0 0
+        float: left
+        width: 200px
+        min-width: 200px
+        max-width: 200px
+        height: 455px
+        min-height: 455px
+        max-height: 455px
+
+        #CloseMenu 
+            border: none
+            outline: none
+            background-color: #333
+            color: #FFF
+            margin: 0 0 0 0
+            float: left
+            width: 200px
+            min-width: 200px
+            max-width: 200px
+            height: 30px
+            min-height: 30px
+            max-height: 30px
+
+        #CloseMenu:hover
+            border: none
+            outline: none
+            background-color: #444
+            color: #1E90FF
+            margin: 0 0 0 0
+            float: left
+            width: 200px
+            min-width: 200px
+            max-width: 200px
+            height: 30px
+            min-height: 30px
+            max-height: 30px
+
+        #CloseMenuIcon 
+            margin: 8px 0 0 6px
+            float: left
+
+        #CloseInput 
+            border: none;
+            outline: none
+            font-size: 20px
+            text-align: right
+            font-family: NoodleFont
+            background-color: transparent
+            color: #FFF
+            margin: 0 0 0 0
+            float: right
+            width: 100px
+            min-width: 100px
+            max-width: 100px
+            height: 30px
+            min-height: 30px
+            max-height: 30px
+
+        #ExpandWrapper
+            border: none
+            outline: none
+            position: absolute
+            background-color: #666
+            color: #FFF 
+            margin: 0 0 0 0
+            float: left
+            width: 200px
+            min-width: 200px
+            max-width: 200px
+            height: 120px
+            min-height: 120px
+            max-height: 120px
+            bottom: 0
+
+            #ExpandItem1, #ExpandItem2, #ExpandItem3, #ExpandItem4
+                border: none
+                outline: none
+                background-color: #333
+                color: #FFF
+                margin: 0 0 0 0
+                float: left
+                width: 200px
+                min-width: 200px
+                max-width: 200px
+                height: 30px
+                min-height: 30px
+                max-height: 30px
+
+            #ExpandItem1:hover, #ExpandItem2:hover, #ExpandItem3:hover, #ExpandItem4:hover
+                border: none
+                outline: none
+                background-color: #444
+                color: #1E90FF 
+                margin: 0 0 0 0
+                float: left
+                width: 200px
+                min-width: 200px
+                max-width: 200px
+                height: 30px
+                min-height: 30px
+                max-height: 30px
+
+            #ExpandIcon1, #ExpandIcon2, #ExpandIcon3, #ExpandIcon4 
+                margin: 8px 0 0 5px
+                float: left
+
+            #ExpandInput1, #ExpandInput2, #ExpandInput3, #ExpandInput4 
+                border: none;
+                outline: none
+                font-size: 20px
+                text-align: right
+                font-family: NoodleFont
+                background-color: transparent
+                color: #FFF
+                margin: 0 0 0 0
+                float: right
+                width: 100px
+                min-width: 100px
+                max-width: 100px
+                height: 30px
+                min-height: 30px
+                max-height: 30px
+
+    #MainContainer
+        z-index: 700
+        border: none
+        outline: none
+        position: absolute
+        background-color: silver
+        color: #FFF 
+        margin: 45px 0 0 0
+        float: left
+        width: 800px
+        min-width: 800px
+        max-width: 800px
+        height: 455px
+        min-height: 455px
+        max-height: 455px
+
+        #MiniNavigation 
+            border: none
+            outline: none
+            background-color: #333 
+            color: #FFF 
+            margin: 0 0 0 0
+            float: left
+            width: 30px
+            min-width: 30px
+            max-width: 30px
+            height: 455px
+            min-height: 455px
+            max-height: 455px
+
+            #MiniWrapper
+                border: none
+                outline: none
+                position: absolute
+                background-color: #222
+                color: #FFF 
+                margin: 0 0 0 0
+                float: left;
+                width: 30px
+                min-width: 30px
+                max-width: 30px
+                height: 120px
+                min-height: 120px
+                max-height: 120px
+                bottom: 0
+
+            #OpenMenu 
+                border: none
+                outline: none
+                background-color: #333
+                color: #FFF
+                margin: 0 0 0 0
+                float: left
+                width: 30px
+                min-width: 30px
+                max-width: 30px
+                height: 30px
+                min-height: 30px
+                max-height: 30px
+
+            #OpenMenu:hover
+                border: none
+                outline: none
+                background-color: #444 
+                color: #1E90FF
+                margin: 0 0 0 0
+                float: left
+                width: 30px
+                min-width: 30px
+                max-width: 30px
+                height: 30px
+                min-height: 30px
+                max-height: 30px
+
+            #OpenMenuIcon 
+                margin: 8px 0 0 6px
+                float: left
+
+            #MiniItem1, #MiniItem2, #MiniItem3, #MiniItem4
+                border: none
+                outline: none
+                background-color: #333
+                color: #FFF 
+                margin: 0 0 0 0
+                float: left
+                width: 30px
+                min-width: 30px
+                max-width: 30px
+                height: 30px
+                min-height: 30px
+                max-height: 30px
+
+            #MiniItem1:hover, #MiniItem2:hover, #MiniItem3:hover, #MiniItem4:hover
+                border: none
+                outline: none
+                background-color: #444
+                color: #1E90FF
+                margin: 0 0 0 0
+                float: left
+                width: 30px
+                min-width: 30px
+                max-width: 30px
+                height: 30px
+                min-height: 30px
+                max-height: 30px
+
+            #MiniIcon1, #MiniIcon2, #MiniIcon3, #MiniIcon4
+                margin: 8px 0 0 5px
+                float: left

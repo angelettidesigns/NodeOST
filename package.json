@@ -1,0 +1,31 @@
+{
+    "main": "www_bin/index.html",
+    "name": "NodeRIP",
+    "description": "NodeRIP Offensive Security Tool",
+    "version": "0.1.0",
+    "keywords": [ "NodeRIP", "Node-WebKit" ],
+
+    "window": {
+      "title": "NodeRIP OST 0.1.0",
+      "icon": "favicon.png",
+      "toolbar": false,
+      "frame": false,
+      "width": 800,
+      "height": 500,
+      "resizable": false,
+      "fullscreen": false,
+      "show_in_taskbar": true,
+      "position": "center",
+      "min_width": 800,
+      "min_height": 500,
+      "max_width": 800,
+      "max_height": 500
+    },
+
+    "webkit": {
+      "plugin": true
+    },
+
+    "author": "Dustin Angeletti",
+    "license": "MIT"
+  }

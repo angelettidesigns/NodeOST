@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="EN-US">
+    <head>
+        <title> NodeRIP OST 0.1.0 </title>
+
+        <script type="text/javascript" src="https://use.fontawesome.com/833d9ac5e2.js"></script>
+        <script type="text/javascript" src="https://use.fontawesome.com/833d9ac5e2.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="assets/stylesheet/index.css" />
+        <link rel="stylesheet" type="text/css" href="assets/stylesheet/index.css" />
+        <link rel="stylesheet" type="text/css" href="assets/stylesheet/index.css" />
+        <link rel="stylesheet" type="text/css" href="assets/stylesheet/index.css" />
+    </head>
+    <body lang="EN-US" ng-app="NodeRIP">
+        <nav name="TitleContainer" id="TitleContainer" class="TitleContainer">
+            <input type="button" value="" name="ControlInput1" id="ControlInput1" class="ControlInput1" onclick="window.close()" />
+            <input type="button" value="" name="ControlInput2" id="ControlInput2" class="ControlInput2" onclick="" />
+            <input type="button" value="" name="ControlInput3" id="ControlInput3" class="ControlInput3" onclick="" />
+            <input type="button" value="Node-RIP OST v0.1.0" name="TitleInput" id="TitleInput" class="TitleInput" />
+        </nav>
+
+        <nav name="SystemContainer" id="SystemContainer" class="SystemContainer">
+            <input type="button" value="File" name="SystemInput1" id="SystemInput1" class="SystemInput1" />
+            <input type="button" value="Edit" name="SystemInput2" id="SystemInput2" class="SystemInput2" />
+            <input type="button" value="View" name="SystemInput3" id="SystemInput3" class="SystemInput3" />
+            <input type="button" value="About" name="SystemInput4" id="SystemInput4" class="SystemInput4" />
+        </nav>
+        
+        <nav name="MenuContainer" id="MenuContainer" class="MenuContainer">
+            <div name="CloseMenu" id="CloseMenu" class="CloseMenu" onclick="CloseMenu()">
+                <i name="CloseMenuIcon" id="CloseMenuIcon" class="fa fa-bars fa-lg" aria-hidden="true"></i>
+                <input type="button" value="Close Menu" name="CloseInput" id="CloseInput" class="CloseInput" />
+            </div>
+
+            <div name="ExpandWrapper" id="ExpandWrapper" class="ExpandWrapper">
+                <div name="ExpandItem1" id="ExpandItem1" class="ExpandItem1" onclick="CloseMenu()">
+                    <i name="ExpandIcon1" id="ExpandIcon1" class="fa fa-home fa-lg" aria-hidden="true"></i>
+                    <input type="button" value="Home" name="ExpandInput1" id="ExpandInput1" class="ExpandInput1" />
+                </div>
+
+                <div name="ExpandItem2" id="ExpandItem2" class="ExpandItem2" onclick="CloseMenu()">
+                    <i name="ExpandIcon2" id="ExpandIcon2" class="fa fa-book fa-lg" aria-hidden="true"></i>
+                    <input type="button" value="Logging" name="ExpandInput2" id="ExpandInput2" class="ExpandInput2" />
+                </div>
+
+                <div name="ExpandItem3" id="ExpandItem3" class="ExpandItem3" onclick="CloseMenu()">
+                    <i name="ExpandIcon3" id="ExpandIcon3" class="fa fa-server fa-lg" aria-hidden="true"></i>
+                    <input type="button" value="Remote" name="ExpandInput3" id="ExpandInput3" class="ExpandInput3" />
+                </div>
+
+                <div name="ExpandItem4" id="ExpandItem4" class="ExpandItem4" onclick="CloseMenu()">
+                    <i name="ExpandIcon4" id="ExpandIcon4" class="fa fa-cogs fa-lg" aria-hidden="true"></i>
+                    <input type="button" value="Settings" name="ExpandInput4" id="ExpandInput4" class="ExpandInput4" />
+                </div>
+            </div>
+        </nav>
+              
+        <div name="MainContainer" id="MainContainer" class="MainContainer">
+            <nav name="MiniNavigation" id="MiniNavigation" class="MiniNavigation">
+                <div name="OpenMenu" id="OpenMenu" class="OpenMenu" onclick="OpenMenu()">
+                    <i name="OpenMenuIcon" id="OpenMenuIcon" class="fa fa-bars fa-lg" aria-hidden="true"></i>
+                </div>
+
+                <div name="MiniWrapper" id="MiniWrapper" id="MiniWrapper">
+                    <div name="MiniItem1" id="MiniItem1" class="MiniItem1" onclick="">
+                        <i name="MiniIcon1" id="MiniIcon1" class="fa fa-home fa-lg" aria-hidden="true"></i>
+                    </div>
+
+                    <div name="MiniItem2" id="MiniItem2" class="MiniItem2" onclick="">
+                        <i name="MiniIcon2" id="MiniIcon2" class="fa fa-book fa-lg" aria-hidden="true"></i>
+                    </div>
+
+                    <div name="MiniItem3" id="MiniItem3" class="MiniItem3" onclick="">
+                        <i name="MiniIcon3" id="MiniIcon3" class="fa fa-server fa-lg" aria-hidden="true"></i>
+                    </div>
+
+                    <div name="MiniItem4" id="MiniItem4" class="MiniItem4" onclick="">
+                        <i name="MiniIcon4" id="MiniIcon4" class="fa fa-cogs fa-lg" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+              
+        <script type="text/javascript">
+            function OpenMenu() {
+                document.getElementById("MenuContainer").style.display = "block";
+            }
+
+            function CloseMenu() {
+                document.getElementById("MenuContainer").style.display = "none";
+            }
+        </script>
+
+        <script type="text/javascript" src="assets/javascript/index.js"></script>
+        <script type="text/javascript" src="assets/javascript/index.js"></script>
+        <script type="text/javascript" src="assets/javascript/index.js"></script>
+        <script type="text/javascript" src="assets/javascript/index.js"></script>
+    </body>
+</html>
